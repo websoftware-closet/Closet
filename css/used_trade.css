@@ -1,0 +1,24 @@
+body{
+  overflow-x: hidden;
+}
+.btn {
+  width: 130px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+}
+td a:link { color: black; text-decoration: none;}
+td a:visited { color: black; text-decoration: none;}
+td a:hover { color: gray; text-decoration: none;}
+button a:link { color: black; text-decoration: none;}
+button a:visited { color: black; text-decoration: none;}
+button a:hover { color: gray; text-decoration: none;}
+#map{margin-left:auto; margin-right:auto; margin-top: 100px;}

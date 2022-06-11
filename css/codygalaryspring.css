@@ -1,0 +1,125 @@
+.bg-1, .bg-2 {
+  background-color: #f6f6f6;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.galaryTopic{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.member {
+  border: 10px solid transparent;
+}
+
+.member:hover {
+  border-color: #e2e2e2;
+}
+.clothinfo{
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 12px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+	#c1, .c2{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+	#com1, .com2{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color3, .colordiv3{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color4, .colordiv4{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color5, .colordiv5{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color6, .colordiv6{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color7, .colordiv7{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color8, .colordiv8{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color9, .colordiv9{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color10, .colordiv10{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color11, .colordiv11{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color12, .colordiv12{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color13, .colordiv13{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color14, .colordiv14{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color15, .colordiv15{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color16, .colordiv16{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
