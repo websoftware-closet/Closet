@@ -21,3 +21,13 @@ body{
   th,td{
     padding: 15px;
   }
+  .mag{
+    font-size: 15px;
+    margin-right: 20px;
+    color: black;
+  }
+  .inner {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+  }

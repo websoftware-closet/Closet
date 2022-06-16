@@ -1,6 +1,12 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@font-face {
+  font-family: 'nike';
+  src: url(../fonts/Futura\ Condensed\ Extra\ Bold.otf) format('truetype');
+}
 body{
   overflow-x: hidden;
 }
+
 .btn{
   width: 130px;
   padding: 10px;
@@ -14,6 +20,15 @@ body{
   box-sizing: border-box;
   display: block;
   transition: .4s;
+}
+.mag{
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+.inner {
+  margin: 0 auto;
+  position: relative;
 }
 .pager{
   position: relative;
@@ -104,9 +119,10 @@ body{
 .centerImg{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  width: max-content;
+  /* width: max-content; */
   width: 100%;
   background-color: #f6f5ef;
+  align-content: space-around;
 }
 
 .collapse.in{
@@ -136,16 +152,17 @@ body{
   color: #333;
   opacity: .3;
   cursor: pointer;
-  display: flex;
+  display: grid;
   padding-top: 7px;
-  justify-content: center;
-  align-content: center;
+  align-self: center;
+}
+.prev{
+  justify-self: end;
 }
 .centerImg > div:nth-child(1){
   display: inline-block;
   display: grid;
   text-align: center;
-  margin-top: 400px;
 }
 .centerImg > div:nth-child(2){
   background-color: #f6f5ef;
@@ -159,8 +176,6 @@ body{
 .centerImg > div:nth-child(3){
   display:inline-block;
   display: grid;
-  margin-top: 400px;
-  margin-left: 20px; 
 }
 .bg-2-right{
   background-color: #f6f5ef;
@@ -168,15 +183,13 @@ body{
 .center .prev{
   position: relative;
   z-index: 100;
-  /* top: 300px; */
-  /* left: 10px; */
-  /* bottom: 100px; */
+  left: 20vw;
+  bottom: 100px;
 }
 .center .next{
-  /* display: inline-block;
   position: relative;
   bottom: 100px;
-  z-index: 100; */
+  z-index: 100;
 }
 .prev:hover,
 .next:hover{
@@ -459,4 +472,22 @@ to{
   left:-50%;
   opacity: 0;
 }
+}
+
+.floating1{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: -500px;
+  left: -400px;
+}
+.floating2{
+  position: relative;
+  top: -200px;
+  left: -400px;
+}
+.floating3{
+  position: relative;
+  top: -300px;
+  right: -300px;
 }

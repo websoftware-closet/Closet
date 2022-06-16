@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  
   <script>
     $( document ).ready( function() {
         $( '#main_title' ).fadeIn('slow');
@@ -27,52 +31,47 @@
 </head>
 
 <body>
-  <header>
-    <!-- 네비게이션 바 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html"><img style ="margin-top: -28px;" src="./image/Closet_logo123.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto" style="margin-top: 15px;">
-          <li class="nav-item">
-            <a class="nav-link" href="./html/codygalaryspring.html">CODY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/drag and drop.html">CUSTOM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/used_trade.html">USED TRADE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./html/monthlycody.html">MONTHLY BEST CODY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MY CLOSET</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>	
-    <!-- 네비게이션 바 끝 -->
-</header>
+	<header>
+		<header>
+			<div class="inner">
+				<nav class="navbar navbar-expand-xl navbar-light bg-2-right" style="margin: 0px;">
+					<a class="navbar-brand" href="./index.html"><img style ="margin-top: -58px;margin-left: 100px;" src="./image/Closet_logo1.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				
+					<div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 200px;">
+						<ul class="navbar-nav" style="margin-top: 40px; height: 60px;">
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/codygalaryspring.html">CODY</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/drag and drop.html">CUSTOM</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/used_trade.html">USED TRADE</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/monthlycody.html">MONTHLY BEST CODY</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="../html/mycloset.html">MY CLOSET</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/login.html">LOGIN</a>
+							</li>
+						</ul>
+					</div>
+				</nav>	
+			</div>
+			</header>
+			<!-- 네비게이션 바 끝 -->
+	</header>
 
 <!-- 메인 타이틀 시작 -->
-<section class="main-print">
+<section class="main-print" style="margin-top: 110px;">
   <div class="container-fluid text-center bg-1">
-    <img class="main-title" id = "main_title" src="../image/visual_title.png" alt="main-title" style="display:none;"> <!--display none으로 해야 fadin이 적용됨.-->
+    <img class="main-title" id = "main_title" src="/image/visual_title.png" alt="main-title" style="display:none;"> <!--display none으로 해야 fadin이 적용됨.-->
   </div>
 </section>
 
@@ -80,7 +79,7 @@
   <div class="container-fluid text-center bg-2">
     <div class="row" style="font-weight: bold; font-size: 16px;">
       <div class="col-sm-6" style="padding-top: 15px;">
-        공지사항 [당첨자 발표] 이주의 코디 5월 2주차 1등 발표 공지
+        Announcement of the winner of the 2nd week of May
       </div>
       <div class="col-sm-6 bg-2-right" style="height: 50px; padding-top: 15px;">
         <span>VISIT SHOWCASE &nbsp &nbsp &nbsp</span>
@@ -88,7 +87,7 @@
       </div>
     </div>       
     <!-- collapse show -->
-    <div class="centerImg" style="height: 0px;">
+    <div class="centerImg">
         <div class="prev"><a href=#><div class="material-icons">arrow_back</div></a></div>
       <div style="position: relative;" class="img">
         <div class="cycle-slideshow" 
@@ -100,11 +99,11 @@
         data-cycle-carousel-visible="3"
         data-cycle-carousel-fluid=true
         >
-          <img class = "cycleimg ioio1" src="../image/ioio.png" data-cycle-hash="Slide image" role="button" onclick="ioioClick();">
-          <img class = "cycleimg" src="../image/RMTCRW.png" data-cycle-hash="Slide image" role="button" onclick="RMTCRWClick();">
-          <img class = "cycleimg" src="../image/Andersson.png" data-cycle-hash="Slide image" role="button" onclick="AnderssonClick()";>
-          <img class = "cycleimg" src="../image/mark.png" data-cycle-hash="Slide image" role="button" onclick="markClick();">
-          <img class = "cycleimg" src="../image/LAFUDGE STORE.png" data-cycle-hash="Slide image" role="button" onclick="LAFUDGEClick();">
+          <img class = "cycleimg ioio1" src="./image/ioio.png" data-cycle-hash="Slide image" role="button" onclick="ioioClick();">
+          <img class = "cycleimg" src="./image/RMTCRW.png" data-cycle-hash="Slide image" role="button" onclick="RMTCRWClick();">
+          <img class = "cycleimg" src="./image/Andersson.png" data-cycle-hash="Slide image" role="button" onclick="AnderssonClick()";>
+          <img class = "cycleimg" src="./image/mark.png" data-cycle-hash="Slide image" role="button" onclick="markClick();">
+          <img class = "cycleimg" src="./image/LAFUDGE STORE.png" data-cycle-hash="Slide image" role="button" onclick="LAFUDGEClick();">
       </div>
       <p class="pager" style="margin-top: -10px;"></p>
       </div>
@@ -124,17 +123,20 @@
 <!-- gd 유튜브 시작 -->
 <div class="container-fluid text-center bg-4">
     <iframe width="100%" height="500px" src="https://www.youtube.com/embed/5L04JwtimN0?autoplay=1&mute=1&loop=1&modestbranding=1&controls=0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img src="./image/kakakakaka.png" alt="Icon" class="floating1" />
+    <img src="./image/youtubefloating4.png" alt="Icon" class="floating2" />
+    <img src="./image/youtubefloating6.png" alt="Icon" class="floating3" />
 </div>
 <!-- gd유튜브 끝 -->
 
 <!--조던 시작-->
 <section class="jodan-product">
   <div class="container-fluid text-center bg-5">
-    <img id = "jodan_animation" src="../image/jodan1.png" alt="" class="product"/>
+    <img id = "jodan_animation" src="./image/jodan1.png" alt="" class="product"/>
     <span id = "jodan-window" class = "text-group">
-      <img id = "jodan-text1" class="season-title" src="../image/season_shoes_title.png" alt="" />
-      <img class="season-description" src="../image/season_shoesdeiscription.png" alt=""/>
-      <a href="https://kream.co.kr/products/37241" class="btn btn--jodan">자세히 보기</a>
+      <img id = "jodan-text1" class="season-title" src="./image/season_shoes_title.png" alt="" />
+      <img class="season-description" src="./image/season_shoesdeiscription.png" alt=""/>
+      <a href="https://kream.co.kr/products/37241" class="btn btn--jodan">Read more</a>
     </span>
   </div>
 </section>
@@ -146,21 +148,21 @@
     <div class="row">
       <div class="col-sm-5">
         <div class="favorite-text-group">
-          <img src="../image/favorite_text1.png" alt="" style="margin-top: 150px;">
+          <img src="./image/favorite_text1.png" alt="" style="margin-top: 150px;">
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-5">
         <div class="favorite-text-group">
-          <img src="../image/favorite_text2.png" alt="" style="margin-top: 50px;">
+          <img src="./image/favorite_text2.png" alt="" style="margin-top: 50px;">
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-5">
         <div class="favorite-text-group" style="margin-top: 50px;">
-          <a href="javascript:void(0)" class="btn btn--white">자세히 보기</a>
+          <a href="javascript:void(0)" class="btn btn--white">Read more</a>
         </div>
       </div>
     </div>
@@ -173,11 +175,11 @@
   <div class="container-fluid text-center bg-7">
     <div class="medal">
       <div class="reverse_main_img">
-        <img class="reverse_img" src="../image/reverse_main.png" alt="">
+        <img class="reverse_img" src="./image/reverse_main.png" alt="">
       </div>
       <div class="reverse_reverse">
-        <img src="../image/reverse_store_medal1.png" alt="" />
-        <a href="https://smartstore.naver.com/ryuseene/?NaPm=ct%3Dl48j0vjt%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D9158caf8901c8e968cf33d7d793c4f3eb873be5c" class="btn btn--reverse">매장 보기</a>
+        <img src="./image/reverse_store_medal1.png" alt="" />
+        <a href="https://smartstore.naver.com/ryuseene/?NaPm=ct%3Dl48j0vjt%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D9158caf8901c8e968cf33d7d793c4f3eb873be5c" class="btn btn--reverse">Shop View</a>
       </div>
     </div>
   </div>
@@ -188,12 +190,12 @@
 <section class="used-trade">
   <div class="container-fluid text-center bg-8">
     <div>
-      <img id = "googlemap" src="../image/googlemap1.png" class = "googlemap img-circle" width="255" height="255" data-target="#member3">
-      <img id = "usedbox" src="../image/usedbox.jpg" class = "usedtrade img-circle" width="255" height="255" data-target="#member3">
+      <img id = "googlemap" src="./image/googlemap1.png" class = "googlemap img-circle" width="255" height="255" data-target="#member3">
+      <img id = "usedbox" src="./image/usedbox.jpg" class = "usedtrade img-circle" width="255" height="255" data-target="#member3">
       <div id = "used-trade-text" class="used-trade-text-group">
-        <img src="../image/find_store_text1.png" alt="">
-        <img src="../image/find_store_text2.png" alt="" style="margin-top: 20px;">
-        <a href="./html/used_trade.html" class="btn btn--usedtrade">자세히 보기</a>
+        <img src="./image/find_store_text1.png" alt="">
+        <img src="./image/find_store_text2.png" alt="" style="margin-top: 20px;">
+        <a href="./html/used_trade.html" class="btn btn--usedtrade">Read more</a>
       </div>
     </div>
   </div>
@@ -203,25 +205,22 @@
 <section class="footer">
   <div class="container-fluid text-center bg-9">
     <ul class="menu">
-      <li><a href="javascript:void(0)" class="green">개인정보처리방침</a></li>
-      <li><a href="javascript:void(0)">영상정보처리기기 운영관리 방침</a></li>
-      <li><a href="javascript:void(0)">홈페이지 이용약관</a></li>
-      <li><a href="javascript:void(0)">위치정보 이용약관</a></li>
-      <li><a href="javascript:void(0)">나만의 옷장 이용약관</a></li>
-      <li><a href="javascript:void(0)">윤리경영 핫라인</a></li>
+      <li><a href="javascript:void(0)" class="green">Personal information processing policy</a></li>
+      <li><a href="javascript:void(0)">Terms and conditions of use of the homepage</a></li>
+      <li><a href="javascript:void(0)">My Closet Terms and ConditionsS</a></li>
     </ul>
 
     <div class="btn-group">
-      <a href="javascript:void(0)" class = "btn btn--white">찾아오시는길</a>
-      <a href="javascript:void(0)" class = "btn btn--white">신규입점제의</a>
-      <a href="javascript:void(0)" class = "btn btn--white">사이트 맵</a>
+      <a href="javascript:void(0)" class = "btn btn--white">Find Way</a>
+      <a href="javascript:void(0)" class = "btn btn--white">newly-opened</a>
+      <a href="javascript:void(0)" class = "btn btn--white">Site Map</a>
     </div>
 
     <div class="info">
-      <span>사업자등록번호 201-81-21515</span>
-      <span>(주)마이 클로젯 대표이사 이연규</span>
+      <span>Business registration number 201-81-21515</span>
+      <span>(주)CEO of Closet, Lee Yeonkyu</span>
       <span>TEL : 010-9203-9910 / FAX : 010-5341-9168</span>
-      <span>개인정보 책임자 : 정세연</span>
+      <span>Person in charge of personal information: Jeong Se-yeon</span>
     </div>
 
     <p class="copyright">

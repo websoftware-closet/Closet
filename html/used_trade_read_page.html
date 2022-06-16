@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../css/used_trade_read_page.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="jquery.cycle2.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -23,90 +24,88 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <title>Hello, world!</title>
+  <title>My Closet</title>
 </head>
 
 <body>
   <header>
-    <!-- 네비게이션 바 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../index.html"><img style ="margin-top: -32px;" src="../image/Closet_logo123.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto" style="margin-top: 15px;">
-          <li class="nav-item">
-            <a class="nav-link" href="#">CODY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./drag and drop.html">CUSTOM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./used_trade.html">USED TRADE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MONTHLY BEST CODY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MY CLOSET</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>	
-    <!-- 네비게이션 바 끝 -->
-    <section class="visual">
-      <h3>글정보</h3>
+		<header>
+			<div class="inner">
+				<nav class="navbar navbar-expand-xl navbar-light bg-2-right" style="margin: 0px;">
+					<a class="navbar-brand" href="../index.html"><img style ="margin-top: -58px;margin-left: 100px;" src="/image/Closet_logo1.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				
+					<div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 200px;">
+						<ul class="navbar-nav" style="margin-top: 40px; height: 60px;">
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/codygalaryspring.html">CODY</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/drag and drop.html">CUSTOM</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/used_trade.html">USED TRADE</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/monthlycody.html">MONTHLY BEST CODY</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="../html/mycloset.html">MY CLOSET</a>
+							</li>
+							<li class="nav-item mag">
+								<a class="nav-link" href="/html/login.html">LOGIN</a>
+							</li>
+						</ul>
+					</div>
+				</nav>	
+			</div>
+			</header>
+			<!-- 네비게이션 바 끝 -->
+	</header>
+  <div class="navimargin" style="margin-top :113px;"></div>
+    <section class="main_inner" style="padding-top: 20px;">
+      <p style="font-size: 25px; font-weight: bold; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: black;">Info</p>
       <hr>
 
       <form action="/board.com/writefin" method="get" >
         <table style="width: 100% " >
           <tr>
-              <td>
-                  작성자 <input type="text" name="writer" style="width: 100px"; readonly value = "정세연">
-                  날짜 <input type="text" name="writer" style="width: 100px"; readonly value = "5/19">
-                  위치 <input type="text" name="writer" style="width: 500px"; readonly value = "충청북도 청주시 서원구 성봉로242번길 31-2">
-                  
-              </td>
-          </tr>
-          <tr>
-            <td>제목 <input type="text" name="boardtitle" style="width:1000px;" readonly value="블루종 팝니다."/></td>
-          </tr>
-          <tr>
-            <td><textarea cols="20" rows="2" name="boardcontent" style="width: 1040px; height: 200px;">내용을 입력하세요!</textarea></td>
+            <input type="text" name="boardtitle" style="width:1000px; border: none; font-size: 20pt; font-weight: bold;" readonly value="블루종 팝니다."/>
           </tr>
           <tr>
               <td>
-                  <h3>VIEW PHOTO</h3><hr>
+                  <input type="text" name="writer" style="width: 50px; border: none; font-weight: bold;"; readonly value = "정세연"><br>
+                  <input type="text" name="writer" style="width: 50px; border: none; color: #D3D3D3;"; readonly value = "2022.5.19"><br>
+                  <input type="text" name="writer" style="width: 500px; border: none; color: #D3D3D3;"; readonly value = "충청북도 청주시 서원구 성봉로242번길 31-2">   
+                  <hr style="height:2px;border:none;background-color:#D3D3D3;"> 
               </td>
           </tr>
           <tr>
-              <td style="border: 1px solid black;"><center><img src="./images/bluejong.jpg" alt="adidas"></center></td>
+            <td style="border: 1px solid black;"><center><img src="/image/spring/spring1.jpg" style="width: 1200px; height : 720px"></center></td>
+        </tr>
+          <tr>
+            <td><textarea id="read" cols="20" rows="2" name="boardcontent" readonly>안녕하세요!&#10;작년에 샀던 블루종 판매하고 있습니다.&#10;연락주시면 빠른 답변 하겠습니다😀&#10;Tel:010-8791-9310</textarea>
+            </td>
           </tr>
-        </table><br><br><br><br><h3>COMMENT</h3><hr>
-
+        </table>
+        <hr style="height:2px;border:none;background-color:#D3D3D3; width: 1207px;"> 
+        <p style="margin-top: 30px; font-size: 13pt; font-weight: bold;">Comment</p>
         <div class = "comment_page">
             <table>
                 <tr>
                     <td>
-                        <input type="text" name="comment_text" style="width: 600px; height: 30px;" placeholder="댓글을 입력해주세요">
-                        <input type="button" value="작성">
+                        <input type="text" name="comment_text" style="width: 1207px; height: 100px; border: 1pt #D3D3D3 ; border-radius: 3pt; border-style: solid;" placeholder="Input Comment">
                     </td>
                 </tr>
+                <tr>
+                  <td>
+                    <input class ="btn btn-dark"type="button" value="Save" style="margin-left: 96%; margin-top: 5px; width: 50px;">
+                  </td>
+                </tr>
             </table>
-            <table class = "table table-hover">
+            <table class = "table table-hover" style="margin-top: 10px; max-width: 1207px; width: 1207px; margin-bottom: 50px;">
               <thead>
                   <tr>
                       <th>번호</th>
@@ -133,7 +132,33 @@
         </div>
       </form>
     </section> 
- 
+    <section class="footer">
+      <div class="container-fluid text-center bg-9">
+        <ul class="menu">
+          <li><a href="javascript:void(0)" class="green">Personal information processing policy</a></li>
+          <li><a href="javascript:void(0)">Terms and conditions of use of the homepage</a></li>
+          <li><a href="javascript:void(0)">My Closet Terms and ConditionsS</a></li>
+        </ul>
+    
+        <div class="btn-group">
+          <a href="javascript:void(0)" class = "btn btn--white">Find Way</a>
+          <a href="javascript:void(0)" class = "btn btn--white">newly-opened</a>
+          <a href="javascript:void(0)" class = "btn btn--white">Site Map</a>
+        </div>
+    
+        <div class="info">
+          <span>Business registration number 201-81-21515</span>
+          <span>(주)CEO of Closet, Lee Yeonkyu</span>
+          <span>TEL : 010-9203-9910 / FAX : 010-5341-9168</span>
+          <span>Person in charge of personal information: Jeong Se-yeon</span>
+        </div>
+    
+        <p class="copyright">
+          &copy; <span class = "this-year"></span> My Closet. All Right reserved
+        </p>
+        <img src="../image/CLOSET.png" alt="" class="logo" style="margin-bottom: 30px;">
+      </div>
+    </section>
 </body>
 
 </html>
