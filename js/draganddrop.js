@@ -48,7 +48,7 @@
       };
 
       function enterDroppable(elem) {
-        elem.style.background = 'pink';
+        
 
       }
 

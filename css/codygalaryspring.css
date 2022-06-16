@@ -1,20 +1,29 @@
+.main-menu{
+  position: absolute;
+  top:90px;
+  right: 0px;
+  z-index: 1;
+  display: flex;
+}
+.main-menu .item .item__name{
+  padding: 10px 20px 34px ;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+.main-menu li{
+  list-style: none;
+}
+
+
+
 .bg-1, .bg-2 {
   background-color: #f6f6f6;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 .galaryTopic{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 50px;
-  text-align: center;
-}
-.member {
-  border: 10px solid transparent;
-}
-
-.member:hover {
-  border-color: #e2e2e2;
+  padding-top: 40px;
+  padding-bottom: 40px ;
 }
 .clothinfo{
   font-weight: bold;
@@ -22,11 +31,27 @@
 .navbar {
   padding-bottom: 12px;
 }
+.member{
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+
+}
 
 .row {
   margin-top: 30px;
 }
-
+.pd-zero{
+  padding: 0px;
+}
+.main_inner h3{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: -5px;
+}
 	#c1, .c2{
     width:100px;
     height:100px;
@@ -122,4 +147,8 @@
     height:100px;
     border-radius:100%;
     border:1px solid #d2d2d2;
+  }
+
+  .clothinfo{
+    font-family: 'nike';
   }
